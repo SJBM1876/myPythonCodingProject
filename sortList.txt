@@ -1,3 +1,4 @@
 players = ['Wilson', 'Harrison', 'Plant', 'Smith', 'Jones', 'Ojo', 'Benning']
-players.append('Ripley')
+positions = ['Goalkeeper', 'Defender', 'Midfielder', 'Forward']
+players.extend(positions)
 print(players)
