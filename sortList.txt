@@ -1,0 +1,2 @@
+players = ['Wilson', 'Harrison', 'Plant', 'Smith', 'Jones', 'Ojo', 'Benning']
+print(players)
