@@ -1,4 +1,3 @@
 players = ['Wilson', 'Harrison', 'Plant', 'Smith', 'Jones', 'Ojo', 'Benning']
-positions = ['Goalkeeper', 'Defender', 'Midfielder', 'Forward']
-players.extend(positions)
+players.sort()
 print(players)
