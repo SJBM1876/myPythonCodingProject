@@ -1,2 +1,3 @@
 players = ['Wilson', 'Harrison', 'Plant', 'Smith', 'Jones', 'Ojo', 'Benning']
+players[2] = 'Massey'
 print(players)
