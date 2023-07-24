@@ -1,0 +1,4 @@
+planets_in_solar_system = 8 # int, Pluto used to be the 9th planet but is too small.
+distance_to_alpha_centauri = 4.367 # float, lighyears
+can_liftoff = True # boolean
+shuttle_landed_on_the_moon = "Apollo 11" #string
