@@ -21,3 +21,11 @@ print(withdrawals)
 def invert_negative_num(negative_num):
     positive_num = negative_num * -1
     return positive_num
+
+withdrawals = [invert_negative_num(withdrawal) for withdrawal in withdrawals]
+print("Withdrawals (positive values):")
+print(withdrawals)
+
+largest_withdrawals = withdrawals[:5]
+print("Largest Withdrawals:")
+print(largest_withdrawals)
