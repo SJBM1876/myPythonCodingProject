@@ -29,3 +29,14 @@ print(withdrawals)
 largest_withdrawals = withdrawals[:5]
 print("Largest Withdrawals:")
 print(largest_withdrawals)
+
+average_deposit = sum(deposits) / len(deposits)
+average_withdrawal = sum(withdrawals) / len(withdrawals)
+
+average_deposit = int(average_deposit)
+average_withdrawal = int(average_withdrawal)
+
+print("Average Deposit (int):")
+print(average_deposit)
+print("Average Withdrawal (int):")
+print(average_withdrawal)
