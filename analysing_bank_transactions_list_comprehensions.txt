@@ -17,3 +17,7 @@ print("Deposits:")
 print(deposits)
 print("Withdrawals:")
 print(withdrawals)
+
+def invert_negative_num(negative_num):
+    positive_num = negative_num * -1
+    return positive_num
