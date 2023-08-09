@@ -40,3 +40,7 @@ print("Average Deposit (int):")
 print(average_deposit)
 print("Average Withdrawal (int):")
 print(average_withdrawal)
+
+transactions.sort()
+print("Sorted Transactions:")
+print(transactions)
