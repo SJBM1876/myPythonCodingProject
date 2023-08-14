@@ -1,0 +1,39 @@
+import random
+
+choice = input("Select either rock, paper, or scissors")
+
+userChoice = choice.strip().lower()
+
+print("You picked: " + userChoice)
+
+randomNumber = random.randint(0, 2)
+print(randomNumber)
+if (randomNumber == 0):
+    opponent = "rock"
+    print("Opponent picked: " + opponent)
+    if (userChoice == "rock"):
+        print("Draw!")
+    elif (userChoice == "paper"):
+        print("You win!")
+    elif (userChoice == "scissors"):
+        print("You lose!")
+
+elif (randomNumber == 1):
+    opponent = "paper"
+    print("Opponent picked: " + opponent)
+    if (userChoice == "rock"):
+        print("You lose!")
+    elif (userChoice == "paper"):
+        print("Draw!")
+    elif (userChoice == "scissors"):
+        print("You win!")
+
+else:
+    opponent = "scissors"
+    print("Opponent picked: " + opponent)
+    if (userChoice == "rock"):
+        print("You win!")
+    elif (userChoice == "paper"):
+        print("You lose!")
+    elif (userChoice == "scissors"):
+        print("Draw!")
