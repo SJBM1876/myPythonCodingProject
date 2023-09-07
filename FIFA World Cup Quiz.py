@@ -9,7 +9,7 @@ print("Let's kick off")
 score = 0
 
 answer = input("Who won the very first world cup in 1930? ")
-if answer == "Uruguay":
+if answer.lower() == "Uruguay".lower():
     print("GOAL!")
     score += 1
 else:
@@ -17,16 +17,18 @@ else:
 
 
 answer = input("Who were the first European to win the world cup? ")
-if answer == "Italy":
+if answer.lower() == "Italy".lower():
     print("GOAL!")
     score += 1
 else:
     print("SAVED!")
 
 print("Congratulations! You got " + str(score) + " questions correct.")
+print("You scored " + str((score/2) * 100) + "%")
 
 
 
 
-          
+
+
 
