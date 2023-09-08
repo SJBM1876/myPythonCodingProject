@@ -46,8 +46,10 @@ else:
 
 
 
-print("Congratulations! You got " + str(score) + " questions correct.")
+print("Congratulations! You got " + str(score) + " correct.")
 print("You scored " + str((score/5) * 100) + "%")
+if score == 5:
+    print("You are a World Cup winner!")
 
 
 
