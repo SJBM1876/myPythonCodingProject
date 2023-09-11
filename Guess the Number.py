@@ -22,6 +22,8 @@ while True:
     else:
         print("That's too high. Have another go: ")
 
+print("You got the number correct in " + str(guesses) + " attempts")
+
 
     
 
