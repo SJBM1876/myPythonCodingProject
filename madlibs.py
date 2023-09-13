@@ -1,13 +1,13 @@
-story_template = """Once upon a time in a [adjective] [noun],
-there lived a [adjective] [animal]. 
-This [animal] was known for its [adjective] [body part]. 
-Every day, the [animal] would [verb] [adverb] through the [noun], 
-searching for [plural noun]. 
-One day, it stumbled upon a [adjective] [object] that was [verb]
-with [color] [liquid]. The [animal] was [emotion] 
-and decided to [verb] the [object]. Suddenly, 
-the [object] [verb] and [verb]! 
-The [animal] had a [adjective] adventure, and it learned that [lesson].
+story_template = """Once upon a time in a {adjective} {noun},
+there lived a {adjective} {animal}. 
+This {animal} was known for its {adjective} {body_part}. 
+Every day, the {animal} would {verb} {adverb} through the {noun}, 
+searching for {plural_noun}. 
+One day, it stumbled upon a {adjective} {object} that was {verb}
+with {color} {liquid}. The {animal} was {emotion} 
+and decided to {verb} the {object}. Suddenly, 
+the {object} {verb} and {verb}! 
+The {animal} had a {adjective} adventure, and it learned that {lesson}.
 """
 
 def get_user_input(word_type):
