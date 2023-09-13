@@ -25,7 +25,7 @@ def main():
             print(f"{player1_name} is the winner!")
               
         elif player1_roll < player2_roll:
-            print(f"[player2_name] is the winner!")
+            print(f"{player2_name} is the winner!")
 
         else:
             print("It's a draw!")
